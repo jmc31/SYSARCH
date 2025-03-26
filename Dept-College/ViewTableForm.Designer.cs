@@ -35,10 +35,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtCollegeRegistration = new System.Windows.Forms.Label();
             this.txtDepartmentRegistration = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblLogout = new System.Windows.Forms.Label();
-            this.txtSearch = new System.Windows.Forms.Label();
             this.btnLoadData = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -100,6 +100,7 @@
             this.txtCollegeRegistration.Size = new System.Drawing.Size(101, 13);
             this.txtCollegeRegistration.TabIndex = 6;
             this.txtCollegeRegistration.Text = "College Registration";
+            this.txtCollegeRegistration.Click += new System.EventHandler(this.lblCollegeRegistration_Click);
             // 
             // txtDepartmentRegistration
             // 
@@ -109,6 +110,16 @@
             this.txtDepartmentRegistration.Size = new System.Drawing.Size(121, 13);
             this.txtDepartmentRegistration.TabIndex = 5;
             this.txtDepartmentRegistration.Text = "Department Registration";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.AutoSize = true;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(36, 216);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(70, 13);
+            this.txtSearch.TabIndex = 4;
+            this.txtSearch.Text = "Contact Us";
             // 
             // label4
             // 
@@ -139,16 +150,6 @@
             this.lblLogout.Size = new System.Drawing.Size(40, 13);
             this.lblLogout.TabIndex = 1;
             this.lblLogout.Text = "Logout";
-            // 
-            // txtSearch
-            // 
-            this.txtSearch.AutoSize = true;
-            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearch.Location = new System.Drawing.Point(36, 216);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(70, 13);
-            this.txtSearch.TabIndex = 4;
-            this.txtSearch.Text = "Contact Us";
             // 
             // btnLoadData
             // 
