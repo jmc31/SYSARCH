@@ -180,5 +180,17 @@ namespace Dept_College
                 }
             }
         }
+        private void lblLogout_Click(object sender, EventArgs e)
+        {
+            // Confirm logout
+            DialogResult result = MessageBox.Show("Are you sure you want to log out?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                // to login form
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
+                this.Close(); // Close Dashboard
+            }
+        }
     }
 }
