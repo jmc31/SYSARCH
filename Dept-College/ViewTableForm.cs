@@ -55,6 +55,14 @@ namespace Dept_College
             this.Hide();
         }
 
+        private void lblDepartmentRegistration_Click(object sender, EventArgs e)
+        {
+            // Open DepartmentForm
+            DepartmentForm departmentForm = new DepartmentForm();
+            departmentForm.Show();
+            this.Hide();
+        }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             string selectedTable = cmbSelectTable.SelectedItem.ToString();
