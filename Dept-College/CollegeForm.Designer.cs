@@ -101,36 +101,36 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(227, 249);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 13);
+            this.label5.Size = new System.Drawing.Size(73, 13);
             this.label5.TabIndex = 16;
-            this.label5.Text = "College Code";
+            this.label5.Text = "College Code:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(224, 212);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Email";
+            this.label4.Text = "Email:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(224, 173);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Name";
+            this.label3.Text = "Name:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(224, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 12;
-            this.label2.Text = "College ID";
+            this.label2.Text = "College ID:";
             // 
             // panel2
             // 

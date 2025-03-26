@@ -108,9 +108,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(224, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 13);
+            this.label5.Size = new System.Drawing.Size(94, 13);
             this.label5.TabIndex = 16;
-            this.label5.Text = "Confirm Password";
+            this.label5.Text = "Confirm Password:";
             // 
             // grpBoxGender
             // 
@@ -150,27 +150,27 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(224, 208);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.Size = new System.Drawing.Size(56, 13);
             this.label4.TabIndex = 14;
-            this.label4.Text = "Password";
+            this.label4.Text = "Password:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(224, 166);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Email";
+            this.label3.Text = "Email:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(224, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Name";
+            this.label2.Text = "Name:";
             // 
             // label1
             // 
