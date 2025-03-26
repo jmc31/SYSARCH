@@ -37,7 +37,7 @@
             this.txtDepartmentRegistration = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblHome = new System.Windows.Forms.Label();
             this.lblLogout = new System.Windows.Forms.Label();
             this.btnLoadData = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
@@ -84,7 +84,7 @@
             this.panel1.Controls.Add(this.txtDepartmentRegistration);
             this.panel1.Controls.Add(this.txtSearch);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.lblHome);
             this.panel1.Controls.Add(this.lblLogout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -131,15 +131,16 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "About us";
             // 
-            // label3
+            // lblHome
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(45, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Home";
+            this.lblHome.AutoSize = true;
+            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.Location = new System.Drawing.Point(45, 139);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(39, 13);
+            this.lblHome.TabIndex = 2;
+            this.lblHome.Text = "Home";
+            this.lblHome.Click += new System.EventHandler(this.lblHome_Click_1);
             // 
             // lblLogout
             // 
@@ -193,7 +194,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(688, 245);
+            this.textBox1.Location = new System.Drawing.Point(688, 228);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 46;
@@ -232,7 +233,7 @@
         private System.Windows.Forms.Label txtDepartmentRegistration;
         private System.Windows.Forms.Label txtSearch;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblHome;
         private System.Windows.Forms.Label lblLogout;
         private System.Windows.Forms.Button btnLoadData;
         private System.Windows.Forms.Button btnSearch;
