@@ -47,6 +47,13 @@ namespace Dept_College
                 }
             }
         }
+        private void lblCollegeRegistration_Click(object sender, EventArgs e)
+        {
+            // Open CollegeForm
+            CollegeForm collegeForm = new CollegeForm();
+            collegeForm.Show();
+            this.Hide();
+        }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
